@@ -1,15 +1,5 @@
 package ca.uqam.h2024.inf2120.grpe30.tp2.adt;
 
-/**
- * UQAM - Hiver 2024
- * INF2120 - Groupe 30 - TP2 
- * 
- * Membre : Cette classe correspond à l'élément T et 
- * elle sera utilisée dans les tests unitaires (JUnit tests)
- *    
- * @author Ismael Doukoure
- * @version 6 mars 2024
- */
 public class Membre {
    
    // Déclaration des attributs
@@ -100,4 +90,5 @@ public class Membre {
        
    }
    
+
 }
