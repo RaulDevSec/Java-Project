@@ -1,16 +1,6 @@
 package ca.uqam.h2024.inf2120.grpe30.tp2.adt;
 
-/**
- * UQAM - Hiver 2024
- * INF2120 - Groupe 30 - TP2 
- * 
- * Noeud<T> : représente chacun des noeuds de notre liste simplement chaînée. 
- *            Elle contient un élément (la donnée à stocker) de type T, et la 
- *            référence sur le prochain noeud. 
- * 
- * @author Ismael Doukoure
- * @version 6 mars 2024
- */
+
 public class Noeud<T> {
     private T element;          // référence de l'information contenu dans le noeud
     private Noeud<T> suivant;   // référence vers le noeud suivant
@@ -87,3 +77,4 @@ public class Noeud<T> {
     }   
               
 } 
+
