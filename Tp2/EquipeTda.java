@@ -3,17 +3,6 @@ package ca.uqam.h2024.inf2120.grpe30.tp2.adt;
 import java.util.List;
 import java.util.Map;
 
-/**
- * UQAM - Hiver 2024 
- * INF2120 - Groupe 30 - TP2
- * 
- * EquipeTda<T> : est une interface qui définie les opérations de base pour la
- * gestion des membres d'une équipe donnée. Le type T est la représentation
- * générique de nos futurs membres.
- * 
- * @author Ismael Doukoure
- * @version 6 mars 2024
- */
 public interface EquipeTda<T> extends Iterable<T> {
 
    /**
@@ -156,5 +145,6 @@ public interface EquipeTda<T> extends Iterable<T> {
     * Vide l'équipe courante en retirant toutes les membres.
     */
    public void vider();
+
 
 }
